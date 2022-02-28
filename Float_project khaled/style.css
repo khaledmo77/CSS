@@ -1,0 +1,342 @@
+*{
+padding: 0;
+margin: 0;
+
+box-sizing: border-box;
+
+}
+.section1{
+    position: relative;
+width: 100%;
+height: 800px;
+
+}
+
+.parent{
+/* background-color: aqua; */
+width: 100%;
+/* height: 400px; */
+padding: 7%;
+
+
+}
+.wrapper{
+
+width: 33%;
+height: 300px;
+/* background-color: white; */
+float:left;
+padding: 10px;
+
+
+}
+.topic{
+    padding: 60px;
+
+    margin: 10px;
+    text-align: center;
+    font-size: 40px;
+
+
+
+
+}
+.pretopic{
+    position: absolute;
+    /* margin: 10px; */
+    top:40px;
+    left: 47%;
+    font-size: 15px;
+    color: rgb(122, 85, 85);
+
+
+
+
+}
+.line{
+    position: absolute;
+width: 10%;
+height: 3px;
+background-color: black;
+left: 45%;
+top: 22%;
+
+
+
+}
+.preline{
+position: absolute;
+height: 3px;
+width:4px;
+background-color: black;
+left: 44.5%;
+top: 22%;
+}
+.aftline{
+
+    position: absolute;
+    height: 3px;
+    width:4px ;
+    background-color: black;
+    left: 55.3%;
+    top: 22%;
+
+}
+
+.son {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size:cover;
+
+    
+    } 
+
+
+.txt{
+    position:absolute;
+    top: 70%;
+    
+    text-align: center;
+    color: rgb(129, 73, 73);
+  
+
+
+
+
+}
+.par{
+    position: relative;
+top: 25px;
+text-align: center;
+color: rgb(129, 73, 73);
+
+}
+.Heading{
+position:absolute;
+top: 60%;
+text-align: center;
+left:32%;
+font-family:Georgia, 'Times New Roman', Times, serif;
+
+
+
+}
+.pre{
+    position:absolute;
+    top:53%;
+    left:36%;
+    color:gray;
+    font-size: smaller;
+    
+
+
+}
+.pre-2{
+left: 34%;
+
+}
+
+
+
+.arrow{
+    position: absolute;
+width: 2%;
+height: 2px;
+left: 20%;
+top: 86%;
+transition:ease-in-out 0.6s;
+
+background-color: black;
+}
+.arrow-2{
+
+    position: absolute;
+width: 2%;
+height: 2px;
+left: 48%;
+top: 86%;
+transition:ease-in-out 0.6s;
+
+background-color: black;
+
+}
+.arrowhead{
+    position: absolute;
+width: 1%;
+height: 2px;
+left: 21%;
+top: 85.4%;
+transform: rotate(40deg);
+transition:ease-in-out 0.6s;
+
+background-color: black;
+}
+.arrowhead-2{
+ 
+
+top: 86.5%;
+transform: rotate(147deg);
+
+
+}
+
+.arrow:hover{
+    background-color: blanchedalmond;
+}
+.arrowhead:hover{
+    background-color: blanchedalmond;
+}
+
+
+
+
+
+.txt-1{
+
+left: 15px;
+
+}
+    
+.son-1{
+ 
+
+background-image: url(creative.png);
+
+
+}
+
+.son-2{
+
+background-image: url(seo.png);
+
+
+}
+
+.son-3{
+
+background-image: url(easy.png);
+
+}
+
+/*     
+    background-color: blue; */
+
+
+
+
+
+.section2{
+   padding: 15%;
+
+
+
+
+}
+.photo_1{
+background-image: url(1.png);
+
+
+}
+.photo_2{
+    background-image: url(2.png);
+    
+    
+    }
+    .photo_3{
+        background-image: url(3.png);
+        
+        
+        }
+        .photo_4{
+            background-image: url(4.png);
+            
+  
+            }
+            .photo_5{
+    background-image: url(5.png);
+                
+   }
+                .photo_6{
+    background-image: url(1.png);
+
+    }
+    ul { 
+        list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(170, 152, 152);
+     }
+     li { position: relative;
+        float: left;
+        width: 10%;
+        list-style: outside none none;
+        left: 25%;
+       
+
+     }   
+     
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(77, 73, 73);
+  }                                                
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+    overflow: hidden;
+    width: 0;
+   
+    transition: .5s ease;
+  }
+  .overlayleft{
+      left: 0;
+      height: 50%;
+      background-color: #f1f4f5;
+  }
+  .overlayright{
+      bottom: 50%;
+left: 100%;
+height: 50%;
+background-color: #f1f4f5;
+
+  }
+  .wrapperphoto:hover .overlayright{
+
+    width: 100%; 
+    left: 0;
+    /* height: 50%; */
+  }
+  .wrapperphoto:hover .overlayleft{
+     
+
+    width: 100%; 
+    /* height: 50%; */
+  }
+ 
+
+  /* .overlayleftblack{
+      background-color: black;
+      left: 0;
+      height: 20%;
+
+
+
+  }
+  .wrapperphoto:hover .overlayleftblack{
+     
+
+    width: 50%; 
+    bottom: 100%;
+    /* height: 50%; */
+  /* } */ */
